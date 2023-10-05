@@ -1,0 +1,42 @@
+{
+  "name": "labeddit-backend-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexFernandesDev/labeddit-backend-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexFernandesDev/labeddit-backend-deploy/issues"
+  },
+  "homepage": "https://github.com/AlexFernandesDev/labeddit-backend-deploy#readme",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.4",
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.18",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^20.8.2",
+    "@types/uuid": "^9.0.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^2.5.1",
+    "sqlite3": "^5.1.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  }
+}
